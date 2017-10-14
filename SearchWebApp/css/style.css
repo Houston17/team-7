@@ -112,7 +112,7 @@ btn-white:focus {
 #home-heading,
 #home-btn {
     animation-duration: .5s;
-    color: yellow;
+    color: red;
 }
 
 #home-cover {
@@ -186,3 +186,8 @@ btn-white:focus {
     margin: 0;
     padding-left: 85px;
 }
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
