@@ -1,0 +1,26 @@
+sudo apt-update
+sudo su -
+pstg
+su - postgres
+sudo express node-postgres-todo
+express node-postgres-todo
+sudo apt-get install express
+sudo apt install node-express-generator
+express node-postgres-todo
+cd node-postgres-todo && npm install
+npm install supervisor@0.11.0 -g
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo apt-get install -y build-essential
+sudo  npm install pg
+npm install express
+cd node-postgres-todo/
+npm install express
+node app.js 
+find / -type f -name "pg_hba.conf"
+vim /etc/postgresql/9.5/main/pg_hba.conf
+find / -type f -name "postgresql.conf"
+vim /etc/postgresql/9.5/main/postgresql.conf
+service postgresql restart 
+psql
+
