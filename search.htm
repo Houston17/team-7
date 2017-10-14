@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="event.css">
+<meta charset="utf-8">
+<title>event</title>
+
+</head>
+<h1>Welcome to event page</h1></a>
+
+<script>
+function validateForm() {
+    var x =  document.forms["ev"]["crEvent"].value;;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+
+}
+
+</script>
+
+
+<body background="search2.png">
+<h2>Login</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" onsubmit="return validateForm()" method="post" name="ev">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="search.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</div>
+<h5><div><h2>Create an event</h2></div>
+<input type="text" name="crEvent" placeholder="Enter event name"> 
+<input type="submit" value="Submit">
+</form>
+<div id="CE">
+
+</h5>
+</body>
+</html>
