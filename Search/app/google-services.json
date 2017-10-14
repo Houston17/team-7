@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330423211583",
+    "firebase_url": "https://search-d3e1e.firebaseio.com",
+    "project_id": "search-d3e1e",
+    "storage_bucket": "search-d3e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330423211583:android:ecfd82c4cdd710c7",
+        "android_client_info": {
+          "package_name": "search.itcsv_rluitel.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330423211583-1v5jr1ob0r5p3scdes2008tpf8e0qabt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "search.itcsv_rluitel.myapplication",
+            "certificate_hash": "9d2cb0598aa062e126a8167aa2b2ad4b0534a3b4"
+          }
+        },
+        {
+          "client_id": "330423211583-bqa8t502j8e63ppa2qt1jd5gjlcaheuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN_qW1Zzmv7tQszyF6O0WisJRxX67lQik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330423211583-bqa8t502j8e63ppa2qt1jd5gjlcaheuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
