@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- title-->
-    <title>Search</title>
+    <title>Caleander Page</title>
 
     <!-- favicon-->
     <link rel="shortcut icon" href="img/search.ico">
@@ -26,29 +26,17 @@
     <link rel="stylesheet" href="css/animate/animate.css">
 
     <!--style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="css/theme.css">
 
-
-</head>
-     
-  <body>
-    <h3>Plese find the volunter opportunity that best in you schedule </h3>
-      
-      
-       <div id="googleMap" style="width:100%;height:400px;"></div>
-
-    <script>
-        function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(29.760427,-95.369803),
-                zoom:5,
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfmmmrDCQ4ffE9aNug227NM0p33-1Pgoc&callback=myMap"></script>
+    </head>
     
-      
+       <body>
+        <div id="caleandar">
+
+           </div>
+
+    <script type="text/javascript" src="js/caleandar.js"></script>
+    <script type="text/javascript" src="js/eventList.js"></script>
   </body>
 </html>
