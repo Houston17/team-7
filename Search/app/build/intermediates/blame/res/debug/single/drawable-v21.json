@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/itcsv_rluitel/Desktop/codeforgood/Search/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/itcsv_rluitel/.android/build-cache/ba0596e5a3129f9095c067f5f64fc62d45b238ac/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/itcsv_rluitel/Desktop/codeforgood/Search/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/itcsv_rluitel/.android/build-cache/ba0596e5a3129f9095c067f5f64fc62d45b238ac/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/itcsv_rluitel/Desktop/codeforgood/Search/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/itcsv_rluitel/.android/build-cache/ba0596e5a3129f9095c067f5f64fc62d45b238ac/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/itcsv_rluitel/Desktop/codeforgood/Search/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/itcsv_rluitel/.android/build-cache/ba0596e5a3129f9095c067f5f64fc62d45b238ac/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
