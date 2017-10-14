@@ -1,0 +1,44 @@
+CREATE TABLE COMPANY(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);
+
+ Table "public.company"
+ Column  |     Type      | Modifiers 
+---------+---------------+-----------
+ id      | integer       | not null
+ name    | text          | not null
+ age     | integer       | not null
+ address | character(50) | 
+ salary  | real          | 
+Indexes:
+    "company_pkey" PRIMARY KEY, btree (id)
+
+
+CREATE TABLE  registration (
+	username  varchar(20) NOT NULL,
+ 	firstName varchar(20), 
+ 	lastName  varchar(20), 
+ 	email     varchar(20), 
+ 	phoneNum  varchar(20), 
+ 	age       numeric(3,0) ,
+ 	password  varchar(20) NOT NULL
+ );
+ 
+ 
+          Table "public.registration"
+  Column   |         Type          | Modifiers 
+-----------+-----------------------+-----------
+ username  | character varying(20) | not null
+ firstname | character varying(20) | 
+ lastname  | character varying(20) | 
+ email     | character varying(20) | 
+ phonenum  | character varying(20) | 
+ age       | numeric(3,0)          | 
+ password  | character varying(20) | not null
+
+insert into registration("test","Dhruvil","Shah","gmail.com","2244001088","test")
+ 
