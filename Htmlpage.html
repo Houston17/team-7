@@ -39,6 +39,34 @@
    		Select image to upload:
    		<input type="file" name="fileToUpload" id="fileToUpload">
     	<input type="submit" value="Upload Story Memory" name="submit story">
+
+    	// Returns null if it can't do it, false if there's an error, true if it saved OK
+		function mozillaSaveFile(filePath,content)
+		{
+   		if(window.Components) 
+   		{
+        try 
+        {
+            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+            var file = Components.classes["@mozilla.org/file/local;1"].createInstance(Components.interfaces.nsILocalFile);
+            file.initWithPath(filePath);
+            if(!file.exists())
+                file.create(0,0x01B4);// 0x01B4 = 0664
+            var out = Components.classes["@mozilla.org/network/file-output-stream;1"].createInstance(Components.interfaces.nsIFileOutputStream);
+            out.init(file,0x22,0x04,null);
+            out.write(content,content.length);
+            out.flush();
+            out.close();
+            return true;
+        } 
+        catch(ex) 
+        {
+            return false;
+        }
+    }
+    return null;
+}
+
 		</form>
 
 		<table>
