@@ -161,7 +161,7 @@ btn-white:focus {
     cursor: pointer;
 }
 
-..service-item-icon i {
+.service-item-icon i {
     color: #34c6d3;
     float: left;
     padding: 15px;
@@ -185,6 +185,33 @@ btn-white:focus {
 .service-item-desc p {
     margin: 0;
     padding-left: 85px;
+}
+
+.training-item {
+    
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.training-item-icon {
+    color: #34c6d3;
+    float: center;
+    padding: 15px;
+    margin-right: 25px;
+    widows: 75px;
+    height: 75px;
+    text-align: center;
+}
+.training-item-title h3{
+    
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    text-align: center;
+    
+}
+    
 }
 
 #map {
